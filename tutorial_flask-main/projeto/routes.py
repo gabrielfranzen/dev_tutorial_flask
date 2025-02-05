@@ -1,5 +1,5 @@
-from main import app
-from flask import render_template, request, redirect, url_for
+from flask import request, redirect, url_for, render_template
+from main import app, db
 from datetime import datetime
 from models import *
 
@@ -10,7 +10,7 @@ def index():
     return render_template('index.html', tasks=taskList)
 
 
-@app.route("/create", methods=['GET', 'POST'])
+@app.route('/create', methods=['GET', 'POST'])
 def create():
     if request.method == 'POST':
         name = request.form['name']
