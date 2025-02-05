@@ -108,8 +108,8 @@ PROJETO:
     15.1 adicionar "from flask import render_template, request, redirect, url_for"
     15.2 importar "from models import *"
     15.3 importar "
-    15.2 ver no meu notebook como criar rota
-    15.3 Adicionar redirecionamento no botão criar task href= "{{ url_for('create') }}"
+    15.4 ver no meu notebook como criar rota
+    15.5 Adicionar redirecionamento no botão criar task href= "{{ url_for('create') }}"
 
 
 16. ENVIAR TASKS PARA INDEX
@@ -128,15 +128,11 @@ PROJETO:
         {% endfor %}
 
 
-16. CRIAR BOTÕES PARA TASKS (sem url's ainda)
-    16.1 ver meu github dev_task_manager
+17. CRIAR BOTÕES PARA TASKS (sem url's ainda)
+    17.1 ver meu github dev_task_manager
 
-17. CRIAR ROTAS (Ver meu github dev_tutorial_flask)
+18. CRIAR ROTAS (Ver meu github dev_tutorial_flask)
 
-18. ADICIONAR URL'S NOS BOTÕES
-
-17. CRIAR RESTANTE DAS ROTAS
-    17.1 ver meu github flask_task_manager
-
+19. ADICIONAR URL'S NOS BOTÕES
 
 FIM PROJETO.
